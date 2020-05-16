@@ -1,0 +1,22 @@
+{
+  "name": "vampire-tm-bot",
+  "version": "1.0.0",
+  "description": "Dice Rolling Bot designed around Vampire The Masquerade 5th Edition for Discord",
+  "main": "index.js",
+  "repository": "github.com:Ard4nis/.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kes Lagoni Williams",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "github:discordjs/discord.js",
+    "ffmpeg-static": "^2.7.0",
+    "iso-639-1": "^2.1.1",
+    "node-opus": "^0.3.3",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^2.1.2"
+  }
+}
