@@ -1,7 +1,7 @@
 module.exports = {
 	name: 'roll',
 	cooldown: 5,
-	args: true,
+	args: false,
 	usage: '<amount of dice> <amount of hunger dice>',
 	description: 'Roll your dice!',
 	execute(message, args) {
