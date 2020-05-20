@@ -1,6 +1,7 @@
 const Youtube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
-const { youtubeAPI } = require('../config.json');
+// const { youtubeAPI } = require('../config.json');
+const youtubeAPI = process.env.YOUTUBE_API;
 const youtube = new Youtube(youtubeAPI);
 
 const commands = ['play', 'skip', 'stop', 'playlist', 'start', 'pause']
