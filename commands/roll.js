@@ -61,7 +61,6 @@ module.exports = {
 		} else if (amount < 9 && amount > 6) {
 			while (i !== 9) {
 				fields.push(emptyField);
-				console.log(fields)
 				i++;
 			}
 		} else if (amount === 10) {
